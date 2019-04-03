@@ -1,0 +1,47 @@
+{
+  "name": "cra-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "jest --coverage"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "rescripts": [
+    [
+      "use-eslint-config",
+      ".eslintrc.js"
+    ],
+    [
+      "use-babel-config",
+      ".babelrc"
+    ]
+  ],
+  "devDependencies": {
+    "@alexghenderson/babel-preset": "^1.0.6",
+    "@alexghenderson/eslint-config": "^1.0.7",
+    "@alexghenderson/jest-preset": "^1.0.2",
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@rescripts/cli": "^0.0.10",
+    "@rescripts/rescript-use-babel-config": "^0.0.8",
+    "@rescripts/rescript-use-eslint-config": "^0.0.9",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.5.0",
+    "react-testing-library": "^6.0.3"
+  }
+}
