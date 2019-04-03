@@ -8,3 +8,4 @@
 - Set up CI
   - CircleCI? Or Travis? Or...?
   - Should be relatively straight forward for validating build passes tests
+- Flesh out jest-setup.js with extending expect and other common jest setup tasks
